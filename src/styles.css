@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: linear-gradient(to bottom right, #adc5d9, #3c4973);
+}
+
+.logoTexto {
+	padding: 40px;
+	display: flex;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+	margin-left: 31%;
+}
+
+.formulario-tarjeta {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: #3772a6;
+	margin-top: 30px;
+}
+
+.box1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.box3 {
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	padding-left: 25px;
+}
+
+#inputNombre,
+#inputPassword {
+	background: #b0babf;
+	width: 330px;
+	height: 50px;
+	font-size: 12px;
+	border-radius: 30px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+button {
+	background: #3c4973;
+	font-size: 18px;
+	color: white;
+	border-radius: 30px;
+	padding: 20px 30px;
+	margin-bottom: 30px;
+	border: none;
+}
+
+#containerResp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #4d4c4c;
+	background: #b0babf;
+	height: 250px;
+	width: 499px;
+	border-radius: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#mensaje {
+	font-size: 30px;
+}
